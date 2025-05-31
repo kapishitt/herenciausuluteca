@@ -1,0 +1,1849 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Fleur+De+Leah&family=Just+Me+Again+Down+Here&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Fleur+De+Leah&family=Fuzzy+Bubbles:wght@400;700&family=Just+Me+Again+Down+Here&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  html, body {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+/* VIDEOS */
+#section500,
+#section501,
+#section502,
+#section503,
+#section504{
+  background-color: black;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw; 
+  display: flex;
+  font-size: 2rem;
+  box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.5);
+}
+/*barra de navegacion*/
+nav{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: rgb(14, 145, 3);
+  color: white;
+  z-index: 1000;
+}
+/* MENU DERECHO */
+.menu a{
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  transition: background 0.3s;
+  right: 40px;
+}
+.menu a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+.menu{
+  display: flex;
+  position: absolute;
+  right: 40px;
+}
+/* MENU IZQUIERDO */
+.menu2 a{
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  transition: background 0.3s;
+  left: 40px;
+}
+.menu2 a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+.menu2{
+  display: flex;
+  position: absolute;
+  left: 40px;
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+  top: 0;
+  position: absolute;
+ 
+}
+.logo img{
+  width: 100%;
+  height: 60px;
+}
+
+/* Seccion 1 - PORTADA */
+#section1 { 
+  background-image: url(images/portada1.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+ }
+ .portada{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+ }
+ .portada h1{
+  text-shadow: 1px 1px 50px black;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  font-family: "Orelega One", serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+ .portada h2{
+  text-shadow: 2px 2px 18px black;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+ /* SECCION 1.2 - PORTADA DE LA BIENVENIDA */
+
+ /* LAMINA 1 */
+#slade33{
+  background-image: url(images/panoramica1.webp);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.txt-slide-b1{
+  padding: 60px;
+  color: white;
+}
+.txt-slide-b1 h1{
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.txt-slide-b1 h2{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.txt-slide-b1 p{
+  text-align: justify;
+  font-size: 26px;
+  line-height: 1.5em;
+}
+/* LAMINA 2 */
+#slade34{
+  background-image: url(images/panoramica1.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.txt-slide-b2{
+  padding: 60px;
+  color: white;
+}
+.txt-slide-b2 p{
+  text-align: justify;
+  font-size: 26px;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+.txt-slide-b1 h3{
+  font-size: 40px;
+}
+
+/* SECCION 1.3 - PORTADA DE EL OBJETIVO */
+#section21{
+  background-image: url(images/panoramica2.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+}
+.div-s21{
+  padding: 100px;
+  color: white;
+  backdrop-filter: blur(2px);
+}
+.div-s21 p{
+  text-align: justify;
+  font-size: 26px;
+  line-height: 1.5em;
+}
+
+ /*Seccion 2 - INICIO */
+#section2 { 
+  background-image: url(images/portada2.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+.div-s2 h1{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+.div-s2 h2{
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.div-s2 p{
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+/* SECCION 2 - INICIO - CARRUSEL */
+/* LAMINA 1 */
+#slade200{
+  background-image: url(images/panoramica2-oscura.webp);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* LAMINA 2 */
+#slade201{
+  background-image: url(images/panoramica2-oscura.webp);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* LAMINA 3 */
+#slade202{
+  background-image: url(images/panoramica2-oscura.webp);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+/* LAMINA 4 */
+#slade203{
+  background-image: url(images/panoramica2-oscura.webp);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* SECCION 2.1 - UBICACION DEL DISTRITO - PORTADA */
+#section9{
+  background-color: black;
+  background-image: url(images/panoramica1.JPG);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.div-s9 h1{
+  font-size: 120px;
+  color: rgb(33, 155, 2);
+  font-family: "Orelega One", serif;
+  font-weight: 400;
+  font-style: normal;
+    text-shadow: 1px 1px 50px rgb(0, 0, 0);
+
+}
+.div-s9 h2{
+  font-size: 60px;
+  color: white;
+    text-shadow: 1px 1px 50px black;
+
+}
+.div-s9 p{
+  font-size: 25px;
+  color: white;
+  line-height: 1.5em;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+
+}
+/* SECCION 2.2 - CARRUSEL DE LA UBICACION GEOGRAFICA DE USULUTAN */
+/* LAMINA 1 */
+#slade204{
+  background-image: url(images/panoramica4.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade204 img{
+  width: 450px;
+  height: 400px;
+  max-width: 80%;
+  border-radius: 10px;
+}
+/* LAMINA 2 */
+#slade205{
+  background-image: url(images/panoramica4.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade205 img{
+  width: 700px;
+  height: 400px;
+  max-width: 80%;
+  border-radius: 10px;
+}
+/* LAMINA 3 */
+#slade206{
+  background-image: url(images/panoramica4.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade206 img{
+  width: 700px;
+  height: 400px;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/* SECCION 2.2 - CONTENEDOR DEL MAPA */
+#section10{
+  background-color: rgb(9, 92, 1);
+}
+.map-container {
+  align-items: center;
+  justify-content: center;
+  width: 90%; /* O el ancho que desees */
+  height: 90%; /* O la altura que desees */
+  border: 2px solid #ccc; /* O cualquier estilo de borde */
+  border-radius: 10px;
+  margin: 2% auto; /* O el margen que desees */
+}
+
+.map-container iframe {
+  width: 100%; /* Asegúrate de que el iframe ocupe todo el ancho de su contenedor */
+  height: 100%; /* Asegúrate de que el iframe ocupe toda la altura de su contenedor */
+  border: none; /* Deshabilita el borde predeterminado del iframe */
+}
+
+
+/*Seccion 3 - PORTADA-COSTUMBRES Y TRADICIONES*/
+#section3 { 
+  background-image: url(images/portada4.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: left;
+  align-items: center; 
+}
+.div-s3{
+  backdrop-filter: blur(3px);
+  width: 100%;
+}
+.div-s3 h2{
+  color: white;
+  font-size: 35px;
+  margin-left: 35px;
+}
+.div-s3 h1{
+  color: white;
+  font-size: 100px;
+  margin-left: 35px;
+}
+
+/*Seccion 4 - CARRUSEL-COSTUMBRES Y TRADICIONES*/
+
+/*CONFIGURACION GENERAL LOS ARTICULOS-CARRUSEL*/
+.txt-slide{
+  position: relative;
+  width: 600px;
+  margin-right: 5%;
+  padding: 10px 10px;
+  color: white;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: solid 1px white;
+}
+.txt-slide h2{
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+.txt-slide p{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.img-slide{
+  width: 50%;
+  height:50%;
+}
+
+/* CONFIGURACION 2 GENERAL DE LOS ARTICULOS DE EL CARRUSEL */
+.txt-slide-center{
+  position: relative;
+  width: 80%;
+  padding: 10px 10px;
+  color: white;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: solid 1px white;
+}
+.txt-slide-center h2{
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+.txt-slide-center p{
+  font-size: 23px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+/* LAMINA 0 DEL CARRUSEL */
+#slade0{
+  background-image: url(images/fondoos.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*LAMINA 1 DEL CARRUSEL*/
+#slade1{
+  background-image: url(images/fondo-slade-1.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade1 img{
+  width: 700px;
+  height: 400px;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 2 DEL CARRUSEL*/
+#slade2{
+  background-image: url(images/fondo-slade-2.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade2 img{
+  width: 750px;
+  height: 350px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMINA 3 DEL CARRUSEL*/
+#slade3{
+  background-image: url(images/fondo-slade-3.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade3 img{
+  width: 700px;
+  height: 400px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMINA 4 DEL CARRUSEL*/
+#slade4{
+  background-image: url(images/fondo-slade-12.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade4 img{
+  width: 700px;
+  height: 300px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMINA 5 DEL CARRUSEL*/
+#slade5{
+  background-image: url(images/fondo-slade-13.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade5 img{
+  width: 700px;
+  height: 300px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*Seccion 5 - GASTRONOMIA TIPICA - PORTADA*/
+#section5{
+  background-image: url(images/portada5.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.div-s5 h1{
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 1px 1px 25px white;
+}
+.div-s5 h2{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 15px white;
+}
+.div-s5 p{
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  line-height: 1.5em;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-shadow: 1px 1px 30px black;
+
+}
+
+/* SECCION 5 - GASTRONOMIA TIPICA - CONFIGURACION ESPECIAL DE EL CARRUSEL */
+/* ARTICULO 1 */
+.txt-slide-m1{
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: 65%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.txt-slide-m1 h1{
+  font-size: 40px;
+}
+.txt-slide-m1 p{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.txt-slide-m1 img{
+  margin-top: 20px;
+  width: 70%;
+  position: relative;
+  object-fit: cover; /* O 'contain', 'fill' u 'none' */
+}
+/* ARTICULO 2 */
+.txt-slide-m2{
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: 65%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.txt-slide-m2 h1{
+  font-size: 40px;
+}
+.txt-slide-m2 p{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.txt-slide-m2 img{
+  margin-top: 20px;
+  width: 70%;
+}
+/* ARTICULO 3 */
+.txt-slide-m3{
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: 65%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.txt-slide-m3 h1{
+  font-size: 40px;
+}
+.txt-slide-m3 p{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.txt-slide-m3 img{
+  margin-top: 20px;
+  width: 70%;
+}
+/* ARTICULO 4 */
+.txt-slide-m4{
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: 65%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.txt-slide-m4 h1{
+  font-size: 40px;
+}
+.txt-slide-m4 p{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.txt-slide-m4 img{
+  margin-top: 20px;
+  width: 70%;
+}
+/* ARTICULO 5 */
+.txt-slide-m5{
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: 65%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.txt-slide-m5 h1{
+  font-size: 40px;
+}
+.txt-slide-m5 p{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.txt-slide-m5 img{
+  margin-top: 20px;
+  width: 70%;
+}
+/* ARTICULO 6 */
+.txt-slide-m6{
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: 65%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.txt-slide-m6 h1{
+  font-size: 40px;
+}
+.txt-slide-m6 p{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.txt-slide-m6 img{
+  margin-top: 20px;
+  width: 70%;
+}
+/* ARTICULO 7 */
+.txt-slide-m7{
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: 65%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.txt-slide-m7 h1{
+  font-size: 40px;
+}
+.txt-slide-m7 p{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.txt-slide-m7 img{
+  margin-top: 20px;
+  width: 70%;
+}
+/* ARTICULO 8 */
+.txt-slide-m8{
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: 65%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.txt-slide-m8 h1{
+  font-size: 40px;
+}
+.txt-slide-m8 p{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.txt-slide-m8 img{
+  margin-top: 20px;
+  width: 70%;
+}
+/* ARTICULO 9 */
+.txt-slide-m9{
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
+  height: 65%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.txt-slide-m9 h1{
+  font-size: 40px;
+}
+.txt-slide-m9 p{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.txt-slide-m9 img{
+  margin-top: 20px;
+  width: 70%;
+}
+/* SECCION 5 - GASTRONOMIA TIPICA - CONFIGURACION DE LAS LAMINAS DE EL CARRUSEL */
+
+/*LAMINA 1 DEL CARRUSEL*/
+
+#slade30{
+  background-image: url(images/fondo-slade-11.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*LAMINA 2 DEL CARRUSEL*/
+#slade31{
+  background-image: url(images/fondo-slade-11.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*LAMINA 3 DEL CARRUSEL*/
+#slade32{
+  background-image: url(images/fondo-slade-11.webp);
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Seccion 6 - RECUERDOS DEL PASADO*/
+#section6{
+  background-image: url(images/portada6.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+.div-s6 h1{
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  text-shadow: 1px 1px 30px black;
+  font-family: "Orelega One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.div-s6 h2{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 1px 1px 25px black;
+}
+
+/*Seccion 6 - CARRUSEL-RECUERDOS DEL PASADO*/
+
+/*LAMMINA 1 DEL CARRUSEL*/
+#slade6{
+  background-image: url(images/fondo-slade-6.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade6 img{
+  width: 400px;
+  height: 450px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 2 DEL CARRUSEL*/
+#slade7{
+  background-image: url(images/fondo-slade-7.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade7 img{
+  width: 700px;
+  height: 400px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 3 DEL CARRUSEL*/
+#slade8{
+  background-image: url(images/fondo-slade-8.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade8 img{
+  width: 750px;
+  height: 350px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 4 DEL CARRUSEL*/
+#slade9{
+  background-image: url(images/fondo-slade-9.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade9 img{
+  width: 700px;
+  height: 275px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 5 DEL CARRUSEL*/
+#slade10{
+  background-image: url(images/fondo-slade-10.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade10 img{
+  width: 550px;
+  height: 400px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/* SECCION 7 - FOTOGRAFIANDO COMO FUE TU INFANCIA - PORTADA */
+#section7{
+  background-image: url(images/portada7.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-s7 h1{
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  text-shadow: 1px 1px 30px black;
+}
+.div-s7 h2{
+  text-align: center;
+  font-size: 110px;
+  color: rgb(207, 12, 12);
+  text-shadow: 1px 1px 25px rgba(255, 255, 255, 0.473);
+  font-family: "Orelega One", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.div-s7 p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+/*Seccion 7 - CARRUSEL -  FOTOGRAFIANDO TU INFANCIA*/
+
+/*LAMMINA 1 DEL CARRUSEL*/
+#slade11{
+  background-color: black;
+  /* background-image: url(fondo-slade-6.webp); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade11 img{
+  width: 350px;
+  height: 450px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 2 DEL CARRUSEL*/
+#slade12{
+  background-color: black;
+  /* background-image: url(fondo-slade-6.webp); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade12 img{
+  width: 350px;
+  height: 450px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 3 DEL CARRUSEL*/
+#slade13{
+  background-color: black;
+  /* background-image: url(fondo-slade-6.webp); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade13 img{
+  width: 350px;
+  height: 450px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 4 DEL CARRUSEL*/
+#slade14{
+  background-color: black;
+  /* background-image: url(fondo-slade-6.webp); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade14 img{
+  width: 300px;
+  height: 450px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 5 DEL CARRUSEL*/
+#slade15{
+  background-color: black;
+  /* background-image: url(fondo-slade-6.webp); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade15 img{
+  width: 350px;
+  height: 450px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 6 DEL CARRUSEL*/
+#slade16{
+  background-color: black;
+  /* background-image: url(fondo-slade-6.webp); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade16 img{
+  width: 350px;
+  height: 450px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*LAMMINA 7 DEL CARRUSEL*/
+#slade17{
+  background-color: black;
+  /* background-image: url(fondo-slade-6.webp); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade17 img{
+  width: 350px;
+  height: 450px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/* SECCION 8 - ROSTROS DEL TALENTO USULUTECO - PORTADA */
+#section8{
+  background-image: url(images/portada8.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  /* justify-content: center;
+  align-items: center; */
+  display: flex;
+  justify-content: center;
+}
+
+.div-s8{
+  position: absolute;
+  display: flex;
+  text-align: center;
+  font-family: "Orelega One", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(218, 2, 2);
+}
+
+.img-s8 img{
+  position: relative;
+  object-fit: cover; /* O 'contain', 'fill' u 'none' */
+  object-position: center; /* O cualquier otra posición */
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  height: 100%; /* Ocupa toda la altura del contenedor */
+
+}
+.name-s8{
+  display: flex;
+  left: 20px;
+  margin-top: 160px;
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  font-family: "Orelega One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.descrip-s8{
+  display: flex;
+  right: 20px;
+  margin-top: 160px;
+  font-size: 50px;
+  color: yellow;
+  position: absolute;
+  font-family: "Orelega One", serif;
+  font-weight: 400;
+  text-align: right;
+  font-style: normal;
+}
+
+/* TALENTO USULUTECO - CONFIGURACION DE LAMINAS DE EL CARRUSEL */
+/*LAMMINA 1 DEL CARRUSEL*/
+#slade18{
+  background-color: black;
+  /* background-image: url(fondo-slade-6.webp); */
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#slade18 img{
+  width: 350px;
+  height: 450px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/* LAMINA 2 DEL CARRUSEL */
+#slade19{
+  /* background-image: url(fondo-slade-3.webp);
+  background-position: center;
+  background-size: cover; */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#slade19 img{
+  width: 700px;
+  height: 400px;
+  margin-top: 1rem;
+  max-width: 80%;
+  border-radius: 10px;
+}
+/* SECCION 8 - COMPOSICIONES DEL ARTISTA - PORTADA */
+#section11{
+  background-image: url(images/);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+.div-s11 h1{
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.div-s11 p{
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  line-height: 1.5em;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+
+/* SECCION 9 - COMPOSICIONES DEL ARTISTA - VIDEO */
+#section12 {
+  display: flex;
+  background-color: black;
+  background-position: cover;
+}
+.div-video12{
+  align-items: center;
+  justify-content: center;
+  width: 90%; 
+  height: 90%; 
+  border: 2px solid #ccc; /* O cualquier estilo de borde */
+  border-radius: 10px;
+  margin: 2% auto; /* O el margen que desees */
+}
+.div-video12 video{
+  width: 100%;
+  height: 100%;
+}
+
+/* SECCION 10 - INFORMACION DEL ARTISTA - CARRUSEL */
+/* LAMINA 1 */
+#slade100{
+  background-image: url(images/);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+}
+.txt-slide-100{
+  padding: 100px;
+}
+.txt-slide-100 p{
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+  line-height: 1.5em;
+}
+/* LAMINA 2 */
+#slade101{
+  /* background-image: url(piano.jpg); */
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+}
+.txt-slide-101{
+  padding: 100pxz;
+}
+.txt-slide-101 p{
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+}
+.txt-slide-101 h3{
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+/* SECCION 11 - PORTADA FINAL */
+#section50{
+  /* background-image: url(); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+.div-s50 h1{
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+.div-s50 p{
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  line-height: 1.5em;
+}
+
+
+
+
+/*CONFIGURACION GENERAL DEL CARRUSEL*/
+.carrusel-nuevo {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carrusel-track {
+  display: flex;
+  width: 300vw; /* 3 slides de 100vw */
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.carrusel-slide {
+  width: 100vw;
+  height: 100%;
+  flex-shrink: 0;
+  font-size: 2rem;
+}
+
+.carrusel-btn {
+  position: absolute;
+  font-size: 3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.521);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.carrusel-btn.prev {
+  left: 10px;
+}
+
+.carrusel-btn.next {
+  right: 10px;
+}
+
+
+/* MEDIA QUERIES PARA MOVILES */
+
+@media screen and (max-width: 768px) {
+/* TAMAÑO PARA LAS SECCIONES */
+  /* #section2, */
+  #carrusel5,
+  #carrusel6,
+  #carrusel9,
+  #carrusel10,
+  #section6,
+  #section3,
+  #section5,
+  #section9,
+  #section10,
+  #section21{
+    height: 50vh;
+  }
+  .container{
+    height: 50%;
+  }
+
+/* IMAGENES */
+  .logo,
+  .img-slide1,
+  .img-slide2,
+  .img-slide3,
+  .img-slade4,
+  .img-slade5,
+  .img-slade6,
+  .img-slade8,
+  .img-slade9,
+  .img-slade10 {
+    display: none;
+  }
+/* PORTADA DE LA REVISTA  */
+  .portada h1 {
+    font-size: 40px;
+  }
+
+  .portada h2 {
+    font-size: 20px;
+  }
+/* INTRODUCCION - BIENVENIDA */
+/* LAMINA 1 */
+  .txt-slide-b1 h1{
+    font-size: 18px;
+  }
+  .txt-slide-b1 h2{
+    font-size: 16px;
+  }
+  .txt-slide-b1 p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+/* LAMINA 2 */
+  .txt-slide-b2 h3{
+    font-size: 16px;
+  }
+  .txt-slide-b2 p{
+    margin-top: 0;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* SECCION 1.2 - OBJETIVO */
+  .div-s21{
+    padding: 50px;
+}
+  .div-s21 p{
+    font-size: 12px;
+}
+
+
+ /* INTRODUCCION - UN POCO DE NUESTRO GRAN PUEBLO */
+  .div-s2 h1{
+    font-size: 20px;
+  }
+  .div-s2 h2{
+    font-size: 30px;
+  }
+  .div-s2 p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+/* PORTADA DE LA UBICACION DE LA CIUDAD */
+.div-s9 h1{
+  font-size: 70px;
+}
+.div-s9 h2{
+  font-size: 25px;
+}
+.div-s9 p{
+  font-size: 14px;
+}
+
+/* PORTADA - COSTUMBRES Y TRADICIONES */
+  .div-s3{
+    text-align: center;
+    backdrop-filter: blur(50%);
+  }
+  .div-s3 h2{
+    font-size: 20px;
+       margin-left: 0;
+  }
+  .div-s3 h1{
+    font-size: 27px;
+       margin-left: 0;
+  }
+/* PORTADA COSTUMBRES Y TRADICIONES - CONFIGURACION DEL CARRUSEL */
+  #slade1,
+  #slade2,
+  #slade3,
+  #slade4,
+  #slade5{
+     padding-left: 0;
+  }
+/* PORTADA DE GASTRONOMIA TIPICA */
+  .div-s5 h2{
+    font-size: 25px;
+  }
+  .div-s5 h1{
+    font-size: 40px;
+  }
+  .div-s5 p{
+    font-size: 12px;
+    margin-left: 5% auto;
+    margin-right: 5% auto;
+  }
+
+
+
+
+
+/* SECCION 5 - GASTRONOMIA TIPICA - CONFIGURACION ESPECIAL DE EL CARRUSEL */
+/* ARTICULO 1 */
+.txt-slide-m1{
+  width: 100px;
+  height: 45%;
+  margin-left: 0;
+  margin-right: 250px;
+  position: absolute;
+}
+.txt-slide-m1 h1{
+  font-size: 16px;
+}
+.txt-slide-m1 p{
+  font-size: 10px;
+}
+.txt-slide-m1 img{
+  width: 70%;
+}
+/* ARTICULO 2 */
+.txt-slide-m2{
+  width: 100px;
+  height: 45%;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+}
+.txt-slide-m2 h1{
+  font-size: 16px;
+}
+.txt-slide-m2 p{
+  font-size: 10px;
+}
+.txt-slide-m2 img{
+  width: 70%;
+}
+/* ARTICULO 3 */
+.txt-slide-m3{
+  width: 100px;
+  height: 45%;
+  margin-left: 250px;
+  margin-right: 0;
+  position: absolute;
+}
+.txt-slide-m3 h1{
+  font-size: 16px;
+}
+.txt-slide-m3 p{
+  font-size: 10px;
+}
+.txt-slide-m3 img{
+  width: 70%;
+}
+
+
+/* ARTICULO 4 */
+.txt-slide-m4{
+  width: 100px;
+  height: 45%;
+  margin-left: 0;
+  margin-right: 250px;
+  position: absolute;
+}
+.txt-slide-m4 h1{
+  font-size: 16px;
+}
+.txt-slide-m4 p{
+  font-size: 10px;
+}
+.txt-slide-m4 img{
+  width: 70%;
+}
+/* ARTICULO 5 */
+.txt-slide-m5{
+  width: 100px;
+  height: 45%;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+}
+.txt-slide-m5 h1{
+  font-size: 16px;
+}
+.txt-slide-m5 p{
+  font-size: 10px;
+}
+.txt-slide-m5 img{
+  width: 70%;
+}
+/* ARTICULO 6 */
+.txt-slide-m6{
+  width: 100px;
+  height: 45%;
+  margin-left: 250px;
+  margin-right: 0;
+  position: absolute;
+}
+.txt-slide-m6 h1{
+  font-size: 16px;
+}
+.txt-slide-m6 p{
+  font-size: 10px;
+}
+.txt-slide-m6 img{
+  width: 70%;
+}
+/* ARTICULO 7 */
+.txt-slide-m7{
+  width: 100px;
+  height: 45%;
+  margin-left: 0;
+  margin-right: 250px;
+  position: absolute;
+}
+.txt-slide-m7 h1{
+  font-size: 16px;
+}
+.txt-slide-m7 p{
+  font-size: 10px;
+}
+.txt-slide-m7 img{
+  width: 70%;
+}
+/* ARTICULO 8 */
+.txt-slide-m8{
+  width: 100px;
+  height: 45%;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+}
+.txt-slide-m8 h1{
+  font-size: 16px;
+}
+.txt-slide-m8 p{
+  font-size: 10px;
+}
+.txt-slide-m8 img{
+  width: 70%;
+}
+/* ARTICULO 9 */
+.txt-slide-m9{
+  width: 100px;
+  height: 45%;
+  margin-left: 250px;
+  margin-right: 0;
+  position: absolute;
+}
+.txt-slide-m9 h1{
+  font-size: 16px;
+}
+.txt-slide-m9 p{
+  font-size: 10px;
+}
+.txt-slide-m9 img{
+  width: 70%;
+}
+
+
+
+/* SECCION 5 - GASTRONOMIA TIPICA - CONFIGURACION DE LAS LAMINAS DE EL CARRUSEL */
+
+/*LAMINA 1 DEL CARRUSEL*/
+#slade30{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* PORTADA DE RECUERDOS DEL PASADO */
+  .div-s6 h1 {
+    font-size: 36px;
+  }
+  .div-s6 h2{
+    font-size: 20px;
+  }
+/* PORTADA DE FOTOGRAFIANDO TU INFANCIA */
+  .div-s7 h1 {
+    font-size: 25px;
+  }
+  .div-s7 h2{
+    font-size: 44px;
+  }
+  .div-s7 p{
+    font-size: 14px
+  }
+ /* CARRUSEL DE RECUERDOS DEL PASADO */
+  #slade6,
+  #slade7,
+  #slade8,
+  #slade9,
+  #slade10{
+    padding-left: 0;
+  }
+
+  .txt-slide p {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+/* BARRA DE NAVEGACION */
+  .menu {
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100px;
+    display: none;
+    z-index: 1000;
+  }
+  .menu a{
+    font-size: 12px;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 60px;
+    background-color: black;
+  }
+
+  .logo {
+    left: 10px;
+  }
+  .logo img{
+    width: 30px;
+    height: 30px;
+  }
+  
+/* SECCION 8 - ROSTROS DEL TALENTO USULUTECO - PORTADA */
+/* SECCION 8 - ROSTROS DEL TALENTO USULUTECO - PORTADA */
+#section8{
+  display: flex;
+  justify-content: center;
+}
+
+.div-s8{
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(218, 2, 2);
+}
+.name-s8{
+  font-size: 30px;
+  margin-top: 160px;
+}
+
+.descrip-s8{
+  font-size: 30px;
+  margin-top: 300px;
+}
+
+.img-s8 img{
+  /* width: 100%; 
+  height: 100%;  */
+  width: 500px;
+  height: 500px;
+  margin-top: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+  
+/* CONFIGURACION GENERAL DE LOS CARRUSELES */
+  .carrusel-slide {
+    height: 50%;
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+   .carrusel-slide #slade11{
+    height: 100%;
+  }
+
+  .txt-slide {
+    width: 90%;
+    height: 90%;
+    margin: 5% auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .txt-slide h2 {
+    font-size: 24px;
+  }
+
+  .txt-slide p {
+    font-size: 12px;
+  }
+
+  .carrusel-slide img {
+    width: 90%;
+    height: auto;
+  }
+
+  .carrusel-btn {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    top: 25%;
+  }
+}
+
+/* MENU DESPLEGABLE */
+.menu-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    z-index: 1100;
+  }
+}
